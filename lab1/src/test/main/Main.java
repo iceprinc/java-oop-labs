@@ -1,5 +1,6 @@
 package test.main;
 
+import java.util.Optional;
 import java.util.Scanner;
 import test.first.First;
 import test.five.Five;
@@ -8,7 +9,15 @@ import test.six.Six;
 import test.three.Three;
 import test.four.Four;
 
+class Nullable{
+    public static String hello(){
+        return "Hello!";
+    }
+}
+
 public class Main {
+
+
     public static void main(String[] args) {
         if(args.length==0){
             String[] newargs = {"Hello","world!"};
@@ -55,3 +64,4 @@ public class Main {
         }
     }
 }
+
